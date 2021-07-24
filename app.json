@@ -1,0 +1,62 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index4/index4",
+    "pages/index2/index2",
+    "pages/index3/index3",
+    "pages/index5/index5",
+    "pages/index6/index6",
+    "pages/index7/index7",
+    "pages/index8/index8",
+    "pages/index9/index9",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#ccc",
+    "backgroundColor": "#40e0d0",
+    "navigationBarTitleText": "微信小程序项目1",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+    
+  },
+  "permission": {
+
+    "scope.userLocation": {
+    
+    "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    
+    }
+    
+    },
+  "tabBar": {
+    "color": "#444",
+    "selectedColor": "#219bf3",
+    "backgroundColor": "e0e0e0",
+    "borderStyle": "black",
+    "position":"bottom",
+    "list": [
+      {
+        "text": "Home",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/1.2.png",
+        "selectedIconPath": "images/1.png"
+      },
+      {
+        "text": "More",
+        "pagePath": "pages/index2/index2",
+        "iconPath": "images/3.png",
+        "selectedIconPath": "images/3.2.png"
+      },
+      {
+        "text": "logs",
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/2.2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
+

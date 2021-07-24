@@ -1,0 +1,11 @@
+<!--pages/index4/index4.wxml-->
+<swiper autoplay="true" indicator-dots="true" indicator-color="blue" indicator-active-color="red" circular="true" interval="1500">
+  <swiper-item> <image src="../../images/4.jpg" mode="widthFix" style="width100%"></image></swiper-item>
+  <swiper-item> <image src="../../images/9.jpeg" mode="widthFix" style="width:100%"></image></swiper-item>
+  <swiper-item> <image src="../../images/6.jpg" mode="widthFix" style="width:100%"></image></swiper-item>
+</swiper>
+<view class="container"> 
+  <button type="primary" default="true" bindtap="jump_one">身处何处</button>
+  <button type="primary" default="true" bindtap="jump_two">华师百科问答</button>
+  <button type="primary" default="true" bindtap="jump_three">路在脚下</button>
+</view>

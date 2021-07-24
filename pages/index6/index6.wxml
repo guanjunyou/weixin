@@ -1,0 +1,22 @@
+<!--pages/index6/index6.wxml-->
+<view class="box2">我的计算器</view>
+<view class="box3">Please enter two numbers.</view>
+<view class="itemView">num1：
+    <input class="input" name="Num1Input" placeholder="请输入一个数"
+    bindinput ="Num1Input"/>
+  </view>
+<view class="itemView">num2：
+    <input class="input" name="Num2Input" placeholder="请输入另一个数"
+     bindinput="Num2Input" />
+  </view>
+<view class="viewName" style="background-color:#fbf9fe">
+  <button class="GoBin" bindtap="andclick">加法</button>
+  <text>\n</text>
+  <button class="GoBin" bindtap="binusclick">减法</button>
+  <text>\n</text>
+  <button class="GoBin" bindtap="chengfaclick">乘法</button>
+  <text>\n</text>
+  <button class="GoBin" bindtap="chufaclick">除法</button>
+  <view class="box">{{output}}</view>
+</view>
+<image src="../../images/5.jpg" style="width:100%"></image>

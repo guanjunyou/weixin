@@ -1,0 +1,19 @@
+<!--pages/index5/index5.wxml-->
+<view class="box1">Please input your username and password.</view>
+<view class="itemView" style="background-color: lightskyblue">Username：
+    <input class="input" name="userName" placeholder="请输入用户名"
+    bindinput ="userNameInput"/>
+  </view>
+<view class="itemView" style="background-color: lightskyblue">Password：
+    <input class="input" password placeholder="请输入密码"
+     bindinput="passWdInput" />
+  </view>
+<view class="viewName">
+  <text>\n</text>
+  <button bindtap="logclick" class="Gobin" style="background-color:cadetblue">Login</button>
+  <text>\n</text>
+  <button class="GoBtn" bindtap="GoClick" style="background-color:cadetblue">Let's go!</button>
+  <text>\n</text>
+  <view class="box2">{{log}}</view>
+</view>
+<image src="../../images/9.jpeg" class="img"></image>

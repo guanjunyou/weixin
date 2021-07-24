@@ -1,0 +1,12 @@
+<!--pages/index2/index2.wxml-->
+<!-- 轮播图  autoplay是自动切换 时间的单位是毫秒-->
+<swiper autoplay="true" indicator-dots="true" indicator-color="blue" indicator-active-color="red" circular="true" interval="1500">
+  <swiper-item> <image src="../../images/4.jpg" mode="widthFix" style="width100%"></image></swiper-item>
+  <swiper-item> <image src="../../images/5.jpg" mode="widthFix" style="width:100%"></image></swiper-item>
+  <swiper-item> <image src="../../images/6.jpg" mode="widthFix" style="width:100%"></image></swiper-item>
+</swiper>
+<view class="container">
+  <button type="primary" plain="true" bindtap="jump_one">牛年大抽奖</button>
+  <button type="primary" default="true" bindtap="jump_two">探索华师</button>
+  <button type="primary" defau="true" bindtap="jump_three">我的计算器</button>
+</view>

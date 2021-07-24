@@ -1,0 +1,54 @@
+/* pages/index6/index6.wxss */
+.GoBin
+{
+  background-color: cadetblue;
+  color: blue;
+}
+.box
+{
+  width: 600rpx;
+  height: 200rpx;
+  background-color: lightblue;
+  padding:50rpx;
+  box-sizing: border-box;
+  border: 20rpx solid green;
+  margin: 50rpx;
+  font-size: 60rpx;
+  font-family: monospace;
+  font-weight: bolder;
+  align-items: center;
+  text-align: center;
+}
+.box2
+{
+  width: 800rpx;
+  height: 100rpx;
+  background-color: rgb(25, 18, 128);
+  padding: 50rpx;
+  box-sizing: border-box;
+  border: cadetblue;
+  color: azure;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 50rpx;
+  font-family: monospace;
+}
+.box3
+{
+  width: 800rpx;
+  height: 100rpx;
+  background-color: dimgray;
+  padding: 50rpx;
+  box-sizing: border-box;
+  border: cadetblue;
+  color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 50rpx;
+  font-family: monospace;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

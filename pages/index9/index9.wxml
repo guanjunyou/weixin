@@ -1,0 +1,15 @@
+<!--pages/index9/index9.wxml-->
+<view class="top">
+   点击地球图标定位
+</view>
+<view>
+<form bindsubmit="getweizhi"> 
+<view>
+  <button form-type="submit"><image src="../../images/10.png"></image></button>
+</view>
+</form>
+</view>
+<vie>
+  <image src="../../images/8..png" class="img"></image>
+</vie>
+

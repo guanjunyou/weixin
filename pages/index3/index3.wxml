@@ -1,0 +1,8 @@
+<!--pages/index3/index3.wxml-->
+<view class="choujiang">牛年大吉行大运，一起来抽奖！</view>
+<view class="box">{{title}}</view>
+
+<button bindtap="kaishi" type="warn" class="button1">开始抽奖</button>
+<button bindtap="jieshu" type="primary">结束抽奖</button>
+<view class="box">{{output}}</view>
+<image src="../../images/4.jpg" class="image1"></image>
